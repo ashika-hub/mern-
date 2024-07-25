@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>flex day 3</title>
+    <style>
+        .flexing{
+            display: flex;
+        }
+        .flexing > div{
+            border: 5px solid rgba(223, 84, 84, 0.616);
+            padding: 3%;
+            height: 5cm;
+        }
+        .flexing > div:hover
+        {
+            transform: scale(1.5);
+        }
+        img{
+            height: 5cm;
+            width: 6cm;
+        }
+        </style>
+</head>
+<body>
+    <div class="flexing">
+        <div><img src="https://5.imimg.com/data5/SELLER/Default/2022/9/VG/VG/OY/32786584/rose-red-flower-1-5-stem.jpg" alt="red"></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTn5K0VgXcMeovxY7DPFeJdFpyZHBiirf_Xg&s" alt="black"></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAl3ikzYS91DnurIbS46E0OZhumtwHPQIw0A&s" alt="yellow"></div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeHEHRqHFyoxYW1t3u-9Ih9Wr4r6ilFh6ksA&s" alt="green"></div>
+    
+</body>
+</html>
